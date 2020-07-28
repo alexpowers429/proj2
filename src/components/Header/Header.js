@@ -4,8 +4,8 @@ class Header extends Component {
 	render() {
 		return (
 			<div>
-				<header>
-					<h1>Work Finder</h1>
+				<header className='teal'>
+					<h1>Become a Dev</h1>
 					<nav>
 						<Link to='/'>Home</Link>
 						<Link to='../Refine/Refine.js'>Refine your search</Link>

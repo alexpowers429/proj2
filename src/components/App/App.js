@@ -4,6 +4,9 @@ import Joblist from '../JobList/JobList';
 import {Route, Link} from 'react-router-dom'
 import Job from "../Job/Job"
 
+const jobUrl =
+	'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json';
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -13,16 +16,21 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://jobs.github.com/positions.json')
+    fetch(jobUrl)
     .then((res) => res.json())
     .then((json) => {
       this.setState({jobs: json})
+     
+    })
+
+    .catch(err => {
+      console.error(err)
     })
   }
   render() {
     return (
-      <div className='Jobs'>
-        <p>Jobs</p>
+      <div className= 'jobs'>
+        
         <Header />
         <Route path='/' exact render={() =>{
           return <Joblist jobs={this.state.jobs} />

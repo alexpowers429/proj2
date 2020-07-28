@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import Job from '../Job/Job'
+import Job from '../Job/Job';
 
-class Joblist extends Component {
+class JobList extends Component {
 	render() {
-		return <div></div>;
+		const renderJob = this.props.jobs.map((jobs) => {
+			return <Job key={jobs.title} jobs={jobs} />;
+		});
+
+		return <div className='job-list'>{renderJob}</div>;
 	}
 }
 
-export default Joblist;
+export default JobList;
