@@ -5,7 +5,8 @@ class Header extends Component {
 		return (
 			<div>
 				<header className='teal'>
-					<h1>Become a Dev</h1>
+					<h1>Become a Remote Software Developer!</h1>
+					<h2></h2>
 					<nav>
 						<Link to='/'>Home</Link>
 						<Link to='../Refine/Refine.js'>Refine your search</Link>

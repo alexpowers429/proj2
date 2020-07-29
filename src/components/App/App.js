@@ -5,7 +5,7 @@ import {Route, Link} from 'react-router-dom'
 import Job from "../Job/Job"
 
 const jobUrl =
-	'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json';
+	'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?location=remote';
 
 class App extends Component {
   constructor(props) {
