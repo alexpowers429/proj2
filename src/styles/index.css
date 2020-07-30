@@ -21,9 +21,9 @@ header {
   background-image: linear-gradient(to bottom right, teal, limegreen);
 }
 
-button {
-  background-color: teal;
-  color: black;
+.btn {
+  background-color: ;
+  color: teal;
   font-weight: bold;
 }
 
@@ -43,4 +43,9 @@ header nav a:hover {
 
 header nav a:last-of-type {
   margin-right: -0.5rem;
+}
+
+.job {
+  font-size: larger;
+  font-weight: bold;
 }

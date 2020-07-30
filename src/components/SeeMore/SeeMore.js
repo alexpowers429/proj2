@@ -11,6 +11,7 @@ class SeeMore extends Component {
             <div>
               <h1>{thisJob.title}</h1>
               <h2>{thisJob.description}</h2>
+              <h3>Apply here: {thisJob.how_to_apply}</h3>
             </div>
         );
     }

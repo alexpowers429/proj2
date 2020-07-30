@@ -13,7 +13,7 @@ class Job extends Component {
 							<li>Location: {this.props.jobs.location}</li>
 							<li>Employment Status: {this.props.jobs.type}</li>
 						</ol>
-						<Link to={'/SeeMore/' + this.props.jobs.id}>See More</Link>
+						<Link className="btn" to={'/SeeMore/' + this.props.jobs.id}>See More</Link>
 					</div>
 				);
     }
