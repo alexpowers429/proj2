@@ -36,7 +36,7 @@ class App extends Component {
           return <Joblist jobs={this.state.jobs} />
         }} />
         
-        <Route path='/SeeMore/:jobtitle' exact render ={(routerProps) => {
+        <Route path='/SeeMore/:id' exact render ={(routerProps) => {
           return <SeeMore match={routerProps.match}jobs={this.state.jobs}/>
         }} />
       </div>
