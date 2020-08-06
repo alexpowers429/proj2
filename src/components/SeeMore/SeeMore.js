@@ -17,7 +17,6 @@ class SeeMore extends Component {
     }
     componentDidMount() {
         const jobId = this.props.match.params.id
-        // const this.state.job = this.props.jobs.find(job => job.id=== jobId)  
         fetch(`https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions/${jobId}.json`)
         .then((res) => res.json())
         .then((json)=> this.setState({job:json}))
@@ -31,7 +30,7 @@ class SeeMore extends Component {
 
     render() {
         return (
-					<div>
+					<div className='seeMore'>
 						<h1>{this.state.job.title}</h1>
 						<div
 							dangerouslySetInnerHTML={this.createMarkup(

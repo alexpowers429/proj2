@@ -4,7 +4,7 @@ class Refine extends Component {
 		return (
 			<div className='refine'>
 				<h1>New Contact</h1>
-				{/* <form onSubmit={this.props.handleSubmit}> */}
+			
 					<label htmlFor='name'>Name:</label>
 					<br />
 					<input type='text' id='name' />

@@ -49,3 +49,6 @@ header nav a:last-of-type {
   font-size: larger;
   font-weight: bold;
 }
+.seeMore {
+  padding: 5px;
+}
