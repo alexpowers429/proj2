@@ -1,4 +1,4 @@
-###Project Description
+### Project Description
 
 My app is going to be called Devscover. It is an application that is designed to help people find a remote job as a software engineer that they can apply to. Users will be able to see a list of jobs . In the future I would like to add a search or filter function so that the user can search based off of location or if it is full-time.
 
