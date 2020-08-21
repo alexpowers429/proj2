@@ -1,6 +1,6 @@
-##Project Description
+###Project Description
 
-My app is going to be called Work Finder. It is an application that is designed to help people find a job in software development that they can apply to. Users will be able to see a list of jobs . In the future I would like to add a search or filter function so that the user can search based off of location or if it is full-time.
+My app is going to be called Devscover. It is an application that is designed to help people find a remote job as a software engineer that they can apply to. Users will be able to see a list of jobs . In the future I would like to add a search or filter function so that the user can search based off of location or if it is full-time.
 
 ## Wireframes
 https://docs.google.com/presentation/d/1V6ph92Xfqq4myUug9uyhH-S1O4vmhIaoPL0ljrJyzho/edit#slide=id.g8eaf417adb_0_0
