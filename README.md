@@ -16,7 +16,7 @@ _As a user i would like to be able to apply from the app
 ## API
 Github Jobs
 
-##Data
+## Data
 
 [
 {
